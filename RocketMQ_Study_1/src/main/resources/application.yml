@@ -1,0 +1,4 @@
+rocketmq:
+  name-server: 192.168.81.130:9876
+  producer:
+    group: boot-producer-group
