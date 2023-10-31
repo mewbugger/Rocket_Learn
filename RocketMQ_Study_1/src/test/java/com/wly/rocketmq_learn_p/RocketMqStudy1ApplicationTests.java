@@ -75,4 +75,17 @@ class RocketMqStudy1ApplicationTests {
 
     }
 
+
+    /**
+     * 测试消息消费模式 集群模式
+     * @throws Exception
+     */
+    @Test
+    void modeTest() throws Exception {
+        for (int i = 0; i < 5; i++) {
+            rocketMQTemplate.syncSend("modeTopic", "我是第" + i + "个消息");
+
+        }
+    }
+
 }
