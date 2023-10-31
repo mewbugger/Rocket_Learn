@@ -8,6 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="RocketMQ_Learn_C" />
+        <module name="seckill-web" />
+        <module name="seckill-service" />
         <module name="RocketMQ_Learn_P" />
       </profile>
     </annotationProcessing>
@@ -16,6 +18,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="RocketMQ_Learn_C" options="-parameters" />
       <module name="RocketMQ_Learn_P" options="-parameters" />
+      <module name="seckill-service" options="-parameters" />
+      <module name="seckill-web" options="-parameters" />
     </option>
   </component>
 </project>

@@ -1,0 +1,17 @@
+server:
+  port: 7001
+spring:
+  application:
+    name: seckill-web
+  redis:
+    host: 192.168.81.130
+    port: 6379
+    database: 0
+rocketmq:
+  name-server: 192.168.81.130:9876     # rocketMq?nameServer??
+  producer:
+    group: wly-group        # ?????
+    send-message-timeout: 3000  # ?????????
+    retry-times-when-send-async-failed: 2  # ????????????
+    max-message-size: 4194304       # ???????
+
