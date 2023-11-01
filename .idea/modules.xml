@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/RocketMQ_Learn.iml" filepath="$PROJECT_DIR$/.idea/RocketMQ_Learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seckill-web/seckill-web.iml" filepath="$PROJECT_DIR$/seckill-web/seckill-web.iml" />
     </modules>
   </component>
 </project>

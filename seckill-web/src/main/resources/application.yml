@@ -6,11 +6,11 @@ spring:
   redis:
     host: 192.168.81.130
     port: 6379
-    database: 0
+    password: javacppgorust
 rocketmq:
   name-server: 192.168.81.130:9876     # rocketMq?nameServer??
   producer:
-    group: wly-group        # ?????
+    group: wly-producer-group        # ?????
     send-message-timeout: 3000  # ?????????
     retry-times-when-send-async-failed: 2  # ????????????
     max-message-size: 4194304       # ???????
